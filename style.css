@@ -4,7 +4,19 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 62.5%; /* normally 100% is 16px we want the size to be 10px so we do 62.5% */
+  font-size: 62.5%;
+  background-color: #cea2d7;
+  font-family: "UnifrakturMaguntia", cursive;
+}
+.header {
+  color: #a348a6;
+  text-align: center;
+  width: 600px;
+  margin: 40px auto;
+  padding: 50px;
+  border: 7px solid #ffecff;
+  border-radius: 25px;
+  font-size: 45px;
 }
 .parent {
   font-size: 30px;
