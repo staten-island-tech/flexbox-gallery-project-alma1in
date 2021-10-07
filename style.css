@@ -33,4 +33,6 @@ body {
   height: 450px;
   margin: 20px;
   border-radius: 25px;
+  text-align: center;
+  padding: 4rem;
 }
