@@ -5,8 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-
-  font-family: "Nunito", sans-serif;
+  font-family: "UnifrakturMaguntia", cursive;
 }
 body {
   background-color: #cea2d7;
@@ -14,15 +13,14 @@ body {
 .header {
   color: #a348a6;
   text-align: center;
-  width: 600px;
-  margin: 40px auto;
-  padding: 50px;
-  border: 7px solid #ffecff;
-  border-radius: 25px;
-  font-size: 45px;
+  width: 50rem;
+  margin: 3rem auto;
+  padding: 3rem;
+  border: 1rem solid #ffecff;
+  border-radius: 2rem;
+  font-size: 5rem;
 }
 .parent {
-  font-size: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,9 +28,11 @@ body {
 .child {
   width: 28%;
   background-color: #9f63c4;
-  height: 450px;
-  margin: 20px;
-  border-radius: 25px;
+  height: 50rem;
+  margin: 2rem;
+  border-radius: 2rem;
   text-align: center;
   padding: 4rem;
+  font-size: 4rem;
+  color: #ffecff;
 }
