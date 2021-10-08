@@ -15,7 +15,7 @@ body {
   text-align: center;
   width: 110rem;
   margin: 3rem auto;
-  padding-bottom: 26rem;
+  padding-bottom: 27rem;
   font-size: 5rem;
   background-image: url(https://i.pinimg.com/originals/c5/ed/fa/c5edface614df9428d86a37197a91126.png);
   background-position: center;
@@ -34,7 +34,7 @@ body {
 .gallery-card {
   width: 28%;
   background-color: #9f63c4;
-  height: 65vh;
+  height: 63vh;
   margin: 2rem;
   border-radius: 2rem;
   text-align: center;
@@ -42,10 +42,15 @@ body {
   font-size: 4rem;
   color: #ffecff;
 }
+.card-body {
+  font-size: 3rem;
+  color: #dfd3e3;
+}
 .card-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3rem;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
