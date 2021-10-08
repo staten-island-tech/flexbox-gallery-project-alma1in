@@ -13,10 +13,10 @@ body {
 .header {
   color: #a348a6;
   text-align: center;
-  width: 110rem;
+  width: 70vw;
   margin: 3rem auto;
-  padding-bottom: 27rem;
-  font-size: 5rem;
+  padding-bottom: 33rem;
+  font-size: 6rem;
   background-image: url(https://i.pinimg.com/originals/c5/ed/fa/c5edface614df9428d86a37197a91126.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -36,15 +36,18 @@ body {
   background-color: #9f63c4;
   height: 63vh;
   margin: 2rem;
+  border-color: ;
   border-radius: 2rem;
   text-align: center;
   padding: 4rem;
-  font-size: 4rem;
+  font-size: 5rem;
   color: #ffecff;
+  box-shadow: 2rem 2rem 2rem #674ab3;
 }
 .card-body {
   font-size: 3rem;
   color: #dfd3e3;
+  font-family: "Comfortaa", cursive;
 }
 .card-image {
   display: block;
