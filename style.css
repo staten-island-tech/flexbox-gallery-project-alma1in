@@ -15,7 +15,7 @@ body {
   text-align: center;
   width: 70vw;
   margin: 3rem auto;
-  padding-bottom: 33rem;
+  padding-bottom: 25rem;
   font-size: 6rem;
   background-image: url(https://i.pinimg.com/originals/c5/ed/fa/c5edface614df9428d86a37197a91126.png);
   background-position: center;
@@ -32,9 +32,9 @@ body {
   margin: 1rem auto;
 }
 .gallery-card {
-  width: 28%;
+  width: 29%;
   background-color: #9f63c4;
-  height: 63vh;
+  height: 73vh;
   margin: 2rem;
   border-color: ;
   border-radius: 2rem;
