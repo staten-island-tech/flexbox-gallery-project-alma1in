@@ -15,9 +15,9 @@ body {
   text-align: center;
   width: 70vw;
   margin: 3rem auto;
-  padding-bottom: 25rem;
+  padding-bottom: 31rem;
   font-size: 6rem;
-  background-image: url(https://i.pinimg.com/originals/c5/ed/fa/c5edface614df9428d86a37197a91126.png);
+  background-image: url(img/banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 114%;
@@ -34,7 +34,7 @@ body {
 .gallery-card {
   width: 29%;
   background-color: #9f63c4;
-  height: 73vh;
+  height: 61vh;
   margin: 2rem;
   border-color: ;
   border-radius: 2rem;
@@ -50,14 +50,83 @@ body {
   font-family: "Comfortaa", cursive;
 }
 .card-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 28vh;
+  width: 28vw;
+  background-size: 90%;
+}
+#image-hellokitty {
+  background-image: url(img/hello\ kitty.png);
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
   width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 28vh;
+}
+#image-mymelody {
+  background-image: url(img/my\ melody.png);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+#image-kuromi {
+  background-image: url(img/kuromi.png);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+#image-cinnamoroll {
+  background-image: url(img/cinnamoroll.png);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+#image-gudetama {
+  background-image: url(img/gudetama.png);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+#image-mysweetpiano {
+  background-image: url(img/my\ sweet\ piano.png);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+#image-littletwinstars {
+  background-image: url(img/little\ twin\ stars.png);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+#image-keroppi {
+  background-image: url(img/keroppi.png);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+#image-purin {
+  background-image: url(img/purin.png);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 100%;
 }
 @media screen and (max-width: 600px) {
   .gallery-card {
