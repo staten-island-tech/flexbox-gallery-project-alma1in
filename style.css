@@ -130,39 +130,3 @@ body {
   margin-bottom: 3rem;
   width: 100%;
 }
-.gallery-card:hover {
-  transform: scale(1.05);
-  z-index: 2;
-  transition: 0.5s;
-}
-.card-image:hover {
-  transform: scale(1.05);
-  z-index: 2;
-  transition: 0.5s;
-}
-.header:hover {
-  transform: scale(1.05);
-  z-index: 2;
-  transition: 0.5s;
-}
-.card-body:hover {
-  transform: scale(1.05);
-  z-index: 2;
-  transition: 0.5s;
-}
-
-@media screen and (max-width: 600px) {
-  .gallery-card {
-    width: 45%;
-  }
-}
-@media screen and (max-width: 800px) {
-  .gallery-card {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 390px) {
-  .gallery-card {
-    width: 100%;
-  }
-}
