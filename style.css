@@ -9,18 +9,21 @@ body,
 }
 body {
   background-color: #cea2d7;
+  background-image: url(img/border.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
 }
 .header {
   color: #a348a6;
   text-align: center;
-  width: 70vw;
+  width: 40vw;
   margin: 3rem auto;
-  padding-bottom: 31rem;
+  padding: 4rem;
   font-size: 6rem;
-  background-image: url(img/banner.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 114%;
+  background-color: #9f63c4;
+  border-radius: 2rem;
+  color: #ffecff;
 }
 
 .gallery {
@@ -36,7 +39,6 @@ body {
   background-color: #9f63c4;
   height: 61vh;
   margin: 2rem;
-  border-color: ;
   border-radius: 2rem;
   text-align: center;
   padding: 4rem;
@@ -128,6 +130,27 @@ body {
   margin-bottom: 3rem;
   width: 100%;
 }
+.gallery-card:hover {
+  transform: scale(1.05);
+  z-index: 2;
+  transition: 0.5s;
+}
+.card-image:hover {
+  transform: scale(1.05);
+  z-index: 2;
+  transition: 0.5s;
+}
+.header:hover {
+  transform: scale(1.05);
+  z-index: 2;
+  transition: 0.5s;
+}
+.card-body:hover {
+  transform: scale(1.05);
+  z-index: 2;
+  transition: 0.5s;
+}
+
 @media screen and (max-width: 600px) {
   .gallery-card {
     width: 45%;
