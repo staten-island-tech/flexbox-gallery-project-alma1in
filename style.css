@@ -49,89 +49,22 @@ body {
 .card-header {
   font-size: 5rem;
 }
-.card-body {
-  font-size: 3rem;
-  color: #f9f0ed;
-  font-family: "Comfortaa", cursive;
-}
 .card-image {
   background-position: center;
   background-repeat: no-repeat;
   height: 28vh;
   width: 28vw;
   background-size: 90%;
-}
-#image-hellokitty {
-  background-image: url(img/hello\ kitty.png);
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
   width: 100%;
 }
-#image-mymelody {
-  background-image: url(img/my\ melody.png);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  width: 100%;
-}
-#image-kuromi {
-  background-image: url(img/kuromi.png);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  width: 100%;
-}
-#image-cinnamoroll {
-  background-image: url(img/cinnamoroll.png);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  width: 100%;
-}
-#image-gudetama {
-  background-image: url(img/gudetama.png);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  width: 100%;
-}
-#image-mysweetpiano {
-  background-image: url(img/my\ sweet\ piano.png);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  width: 100%;
-}
-#image-littletwinstars {
-  background-image: url(img/little\ twin\ stars.png);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  width: 100%;
-}
-#image-keroppi {
-  background-image: url(img/keroppi.png);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  width: 100%;
-}
-#image-purin {
-  background-image: url(img/purin.png);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  width: 100%;
+.card-body {
+  font-size: 3rem;
+  color: #f9f0ed;
+  font-family: "Comfortaa", cursive;
 }
 @keyframes opacity {
   0% {
@@ -158,51 +91,45 @@ body {
   transform: skew(3deg, 3deg);
   transition: 0.5s;
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1420px) {
   .gallery-card {
     width: 45%;
   }
   .card-image {
-    background-size: 61%;
+    width: 85%;
   }
   body {
-    background-size: 135%;
+    background-size: 149%;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 950px) {
   .gallery-card {
-    width: 60%;
-  }
-  .header {
-    font-size: 6rem;
+    width: 70%;
   }
   .card-image {
-    background-size: 70%;
-  }
-  .card-body {
-    font-size: 3rem;
+    width: 80%;
   }
   body {
-    background-size: 330%;
+    background-size: 392%;
   }
 }
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 500px) {
   .gallery-card {
-    width: 100%;
+    width: 90%;
   }
   .header {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .card-header {
     font-size: 5rem;
   }
   .card-image {
-    background-size: 55%;
+    height: 40%;
   }
   .card-body {
     font-size: 3rem;
   }
   body {
-    background-size: 430%;
+    background-size: 727%;
   }
 }
