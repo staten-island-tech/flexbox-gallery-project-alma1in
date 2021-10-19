@@ -6,7 +6,7 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "UnifrakturMaguntia", cursive;
-  animation: opacity 0.5s;
+  animation: opacity 1s;
 }
 body {
   background-color: #f9c5d1;
@@ -135,7 +135,7 @@ body {
 }
 @keyframes opacity {
   0% {
-    opacity: 80%;
+    opacity: 60%;
   }
 }
 .header:hover {
@@ -174,16 +174,16 @@ body {
     width: 60%;
   }
   .header {
-    font-size: 5rem;
+    font-size: 6rem;
   }
   .card-image {
-    background-size: 80%;
+    background-size: 70%;
   }
   .card-body {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   body {
-    background-size: 480%;
+    background-size: 330%;
   }
 }
 @media screen and (max-width: 812px) {
@@ -191,18 +191,18 @@ body {
     width: 100%;
   }
   .header {
-    font-size: 2rem;
+    font-size: 5rem;
   }
   .card-header {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .card-image {
-    background-size: 100%;
+    background-size: 55%;
   }
   .card-body {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   body {
-    background-size: 960%;
+    background-size: 430%;
   }
 }
