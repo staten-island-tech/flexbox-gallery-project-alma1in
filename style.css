@@ -5,8 +5,6 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "UnifrakturMaguntia", cursive;
-  animation: opacity 1s;
 }
 body {
   background-color: #f9c5d1;
@@ -14,6 +12,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 110%;
+  font-family: "UnifrakturMaguntia", cursive;
+  animation: opacity 1s;
 }
 .header {
   text-align: center;
